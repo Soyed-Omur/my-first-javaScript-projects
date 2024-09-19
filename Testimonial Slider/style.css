@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.testimonial-container{
+    width: 500px;
+    height: auto;
+    background-color: aqua;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.4);
+    padding: 50px 15px;
+    margin: 7px;
+    position: relative;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+}
