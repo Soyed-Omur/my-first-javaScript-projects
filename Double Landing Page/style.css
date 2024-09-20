@@ -13,6 +13,7 @@ body{
     width: 50%;
     height: 100%;
     top: 0;
+    overflow: hidden;
 }
 
 h1{
@@ -30,6 +31,7 @@ h1{
     border: 3px solid;
     cursor: pointer;
     transition: 1s ;
+    white-space: nowarp;
 }
 
 .btn:hover{
@@ -51,4 +53,24 @@ h1{
     background-color: lightblue;
     background-image: url(samsung-img.png);
     background-size: cover;
+}
+
+.active-left .left{
+    width: 70%;
+}
+
+.active-left .right{
+    width: 30%;
+}
+
+.active-right .right{
+    width: 70%;
+}
+
+.active-right .left{
+    width: 30%;
+}
+
+.left , .right{
+    transition: width 2s ease-in-out;
 }
