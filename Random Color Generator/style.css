@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container{
+    background-color: aqua;
+    height: 150px;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    border: 2px solid black;
+    border-radius: 10px;
+}
